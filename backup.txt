@@ -1,0 +1,78 @@
+.topnav {
+  background-color: rgb(55, 3, 85);
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+
+    <div class="arrow-front">
+      <a href="/about.html">
+        <img src="/img/arrow-front.png" alt="Next Page" />
+      </a>
+    </div>
+
+
+        <div class="arrow-back">
+      <a href="/about.html">
+        <img src="/img/arrow-back.png" alt="Previous Page" />
+      </a>
+    </div>
+
+
+    <div class="arrow-front">
+      <a href="/fantasy-locations.html">
+        <img src="/img/arrow-front.png" alt="Next Page" />
+      </a>
+    </div>
+
+    _____________________________________________________________________________________
+    _____________________________________________________________________________________
+
+
+        <div class="list-hill">
+      <h2 class="hill-list-head">Your Essential Things:-</h2>
+      <p>
+        <ul class="hill-a">
+          <li>Woolens</li>
+          <li>Good Shoes</li>
+          <li>Napkins</li>
+          <li>Medicines</li>
+          <li>Chocolates</li>
+        </ul>
+        <ul class="hill-b">
+          <li>Skincare</li>
+          <li>Thermal Water Bottle</li>
+          <li>Umbrella</li>
+          <li>Cash</li>
+          <li>Power Bank</li>
+        </ul>
+        <ul class="hill-c">
+          <li>Deodorant & Dry Shampoo</li>
+          <li>Winter Boots</li>
+          <li>Leather Jackets</li>
+          <li>Lip Balm</li>
+          <li>Binoculars</li>
+        </ul>
+      </p>
+      
+    </div>
+    .list-hill {
+        margin-top: 100px;
+        margin-left: 700px;
+        position: fixed;
+      }
+      .hill-a {
+        position: fixed;
+      }
+      .hill-b {
+        margin-left: 150px;
+        position: fixed;
+      }
+      .hill-c {
+        margin-left: 375px;
+        position: fixed;
+      }
+      .hill-list-head {
+        margin-left: 20px;
+        font-family: papercut;
+      }
