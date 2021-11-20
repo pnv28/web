@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Beach_files/stylesheet.css">
+    <title>Beach</title>
+    </head><body data-new-gr-c-s-check-loaded="8.890.0" data-gr-ext-installed=""><div class="topnav">
+      <a href="http://127.0.0.1:5500/index.html"> Home </a>
+      <a href="http://127.0.0.1:5500/about.html">About</a>
+      <a href="http://127.0.0.1:5500/fantasy-locations.html">Fantasy Locations</a>
+    </div>
+
+    <style>
+      body {
+        background-image: url("../img/beach-bg.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+      }
+      .beach-head {
+        margin-left: 610px;
+        font-family: papercut;
+        font-size: 110px;
+        color: rgb(0, 0, 0);
+        position: absolute;
+      }
+      .beach-list {
+        position: absolute;
+        font-size: 25px;
+        margin-left: 400px;
+        margin-top: 300px;
+        color: black;
+      }
+      .b1 {
+        position: absolute;
+      }
+      .b2 {
+        position: absolute;
+        margin-left: 250px;
+      }
+      .b3 {
+        position: fixed;
+        margin-left: 500px;
+      }
+    </style>
+  
+  
+    <h1 class="beach-head">Beach</h1>
+    <div class="beach-list">
+      <ul class="b1">
+        <li>Sunscreen</li>
+        <li>Sunglasses</li>
+        <li>Bathing suit</li>
+        <li>A good book</li>
+        <li>Sandals</li>
+      </ul>
+      <ul class="b2">
+        <li>Toys to play in the sand</li>
+        <li>Snorkel</li>
+        <li>Umbrella</li>
+        <li>Laptop or tablet</li>
+        <li>Headphones</li>
+      </ul>
+      <ul class="b3">
+        <li>Camera</li>
+        <li>Book</li>
+        <li>Electrical converters <br>or adapters</li>
+        <li>Water bottle</li>
+        <li>Chapstick</li>
+        <li>Towel</li>
+      </ul>
+    </div>
+  <!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>
