@@ -46,3 +46,16 @@ body {
   width: 200px;
   margin-left: 600px;
 }
+
+.packing {
+  position: absolute;
+  margin-left: 630px;
+  margin-top: 200px;
+  font-size: 25px;
+}
+.journey {
+  position: absolute;
+  margin-left: 630px;
+  margin-top: 660px;
+  font-size: 25px;
+}
